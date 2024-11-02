@@ -11,7 +11,7 @@ namespace MaintenanceSchedulingApp.Data
         public DbSet<MaintenanceHistory> MaintenanceHistory { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
+    {
             optionsBuilder.UseNpgsql("Host=localhost;Port=9000;Database=maintenance;Username=postgres;Password=masal");
         }
     }
