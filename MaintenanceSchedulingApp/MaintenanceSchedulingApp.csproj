@@ -7,11 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
     <Folder Include="Tests\" />
     <Folder Include="Utilities\" />
     <Folder Include="Views\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>

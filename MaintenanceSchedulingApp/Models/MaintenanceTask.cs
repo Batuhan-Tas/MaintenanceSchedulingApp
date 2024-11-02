@@ -10,5 +10,10 @@
 
         public Assets Assets { get; set; }
 
+        public void MarkAsCompleted(int taskId)
+        {
+            IsCompleted = true;
+        }
+
     }
 }

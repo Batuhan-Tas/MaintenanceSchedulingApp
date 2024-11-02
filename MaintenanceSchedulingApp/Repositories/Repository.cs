@@ -7,9 +7,10 @@ namespace MaintenanceSchedulingApp.Repositories
     {
 
         protected readonly MaintenanceSchedulerContext _context;
-        public Repository(MaintenanceSchedulerContext context) {
+        public Repository(MaintenanceSchedulerContext context)
+        {
             _context = context;
-    }
+        }
 
         public async Task AddAsync(T entity)
         {
@@ -43,3 +44,4 @@ namespace MaintenanceSchedulingApp.Repositories
             await _context.SaveChangesAsync();
         }
     }
+}
